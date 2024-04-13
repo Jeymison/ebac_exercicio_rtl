@@ -25,5 +25,5 @@ describe('Teste para o componente PostComment', () => {
         fireEvent.click(screen.getByTestId('button'));
         expect(screen.getAllByTestId('textos')).toHaveLength(2); 
     });  
-}); 
+});  
 
